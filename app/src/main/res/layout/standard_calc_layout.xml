@@ -136,5 +136,9 @@
             android:id="@+id/stdEquals"
             android:text="@string/equals"
             style="@style/StdCalcButton"/>
+        <Button
+            android:id="@+id/stdPower"
+            android:text="@string/power_string"
+            style="@style/StdCalcButton"/>
     </GridLayout>
 </LinearLayout>

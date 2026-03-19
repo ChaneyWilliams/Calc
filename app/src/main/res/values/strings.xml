@@ -45,4 +45,5 @@
     <string name="clear_hist">Clear Hist.</string>
     <string name="standard_mode">Standard Mode</string>
     <string name="expression_builds_here">Expression builds here</string>
+    <string name="power_string">^</string>
 </resources>

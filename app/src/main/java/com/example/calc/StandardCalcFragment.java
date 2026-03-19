@@ -25,7 +25,7 @@ public class StandardCalcFragment extends Fragment {
             R.id.std4, R.id.std5, R.id.std6, R.id.stdSub,
             R.id.std1, R.id.std2, R.id.std3, R.id.stdMult,
             R.id.std0, R.id.stdDot, R.id.stdClear, R.id.stdDiv,
-            R.id.stdLParen, R.id.stdRParen
+            R.id.stdLParen, R.id.stdRParen, R.id.stdPower
     };
     String[] buttonString = {
             "sin", "cos", "tan", "%",
@@ -33,7 +33,7 @@ public class StandardCalcFragment extends Fragment {
             "4", "5", "6", "-",
             "1", "2", "3", "*",
             "0", ".", "C", "/",
-            "(", ")"
+            "(", ")","^"
     };
     private TextView inputExpression;
     private Button btnEquals, btnClear;
