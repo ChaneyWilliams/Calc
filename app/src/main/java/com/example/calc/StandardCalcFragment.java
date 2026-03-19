@@ -73,7 +73,7 @@ public class StandardCalcFragment extends Fragment {
             Expression expression = new ExpressionBuilder(expr).build();
             double result = expression.evaluate();
             inputExpression.setText(String.valueOf(result));
-            ((MainActivity) getActivity()).addToHistoryStd(expr);
+            ((MainActivity) getActivity()).addToHistoryStd(expr + " = " + result);
         } catch (Exception e) {
             Toast.makeText(getActivity(), "Invalid expression", Toast.LENGTH_SHORT).show();
         }

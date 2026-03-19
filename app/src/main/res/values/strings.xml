@@ -20,7 +20,7 @@
     <string name="rParenthesis">)</string>
     <string name="decimal">.</string>
 
-    <string name="first_only_label">All buttons below only apply to the First number</string>
+    <string name="first_only_label">All buttons below only apply to the First number and Trig gives radians</string>
 
     <string name="sin">sin</string>
     <string name="cos">cos</string>
@@ -42,4 +42,7 @@
     <string name="menu_add_note">Add Note</string>
     <string name="menu_clear_all">Clear All</string>
     <string name="hint_no_notes">No notes yet. Tap + to add one.</string>
+    <string name="clear_hist">Clear Hist.</string>
+    <string name="standard_mode">Standard Mode</string>
+    <string name="expression_builds_here">Expression builds here</string>
 </resources>

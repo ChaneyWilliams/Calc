@@ -23,12 +23,14 @@ public class MainActivity extends AppCompatActivity {
     RecyclerView recyclerView;
     HistoryAdapter adapter;
     List<String> historyList = new ArrayList<>();
+    private Button clearAllButton;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        findViewById(R.id.btnClearAll).setOnClickListener(v -> clearAllHistory());
 
         loadFragment(new TwoNumberFragment());
 
@@ -86,4 +88,8 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.scrollToPosition(historyList.size() - 1);
     }
 
+    public void clearAllHistory(){
+        historyList.clear();
+        adapter.notifyDataSetChanged();
+    }
 }

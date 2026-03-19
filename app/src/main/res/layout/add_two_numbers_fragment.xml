@@ -1,159 +1,135 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="16dp">
-
+    android:padding="8dp"
+    android:background="#323232">
 
     <EditText
         android:id="@+id/editNumber1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/hint_first_number"
+        android:textColorHint="#80FFFFFF"
+        android:textColor="#FFFFFF"
         android:inputType="number"
+        android:textSize="14sp"
+        android:padding="6dp"
         android:importantForAutofill="no"/>
 
-    <!-- Second number -->
     <EditText
         android:id="@+id/editNumber2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/hint_second_number"
+        android:textColorHint="#80FFFFFF"
+        android:textColor="#FFFFFF"
         android:inputType="number"
+        android:textSize="14sp"
+        android:padding="6dp"
         android:importantForAutofill="no"/>
 
-    <!-- Result -->
+
     <TextView
         android:id="@+id/txtResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/result_placeholder" />
+        android:text="@string/result_placeholder"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:padding="6dp" />
 
-    <!-- Main operations -->
+
     <GridLayout
         android:id="@+id/gridLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:columnCount="2">
+        android:layout_marginTop="8dp"
+        android:columnCount="3"
+        android:alignmentMode="alignMargins"
+        android:useDefaultMargins="true">
 
         <Button
+            style="@style/CalcButton"
             android:id="@+id/btnAdd"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:text="@string/add" />
-
+            android:text="@string/add"/>
         <Button
+            style="@style/CalcButton"
             android:id="@+id/btnSub"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:text="@string/subtract" />
-
+            android:text="@string/subtract"/>
         <Button
+            style="@style/CalcButton"
             android:id="@+id/btnMult"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:text="@string/multiply" />
-
+            android:text="@string/multiply"/>
         <Button
+            style="@style/CalcButton"
             android:id="@+id/btnDiv"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:text="@string/divide" />
-
+            android:text="@string/divide"/>
         <Button
+            style="@style/CalcButton"
             android:id="@+id/btnPower"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:text="@string/power" />
-
+            android:text="@string/power"/>
         <Button
+            style="@style/CalcButton"
             android:id="@+id/btnRoot"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:text="@string/root" />
-
+            android:text="@string/root"/>
         <Button
+            style="@style/CalcButton"
             android:id="@+id/btnMod"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:text="@string/mod" />
-
+            android:text="@string/mod"/>
         <Button
+            style="@style/CalcButton"
             android:id="@+id/btnLog"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:text="@string/log" />
-
+            android:text="@string/log"/>
         <Button
+            style="@style/CalcButton"
             android:id="@+id/btnClear"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:text="@string/clear" />
+            android:text="@string/clear"/>
 
     </GridLayout>
 
-    <!-- Label -->
     <TextView
         android:id="@+id/txtFirstOnly"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/first_only_label"
+        android:textColor="#FFFFFF"
         android:textAlignment="center"
         android:textStyle="bold"
-        android:padding="10dp" />
+        android:textSize="13sp"
+        android:padding="6dp" />
 
-    <!-- Advanced operations -->
     <GridLayout
         android:id="@+id/gridLayout2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:columnCount="2">
+        android:columnCount="3"
+        android:alignmentMode="alignMargins"
+        android:useDefaultMargins="true">
 
         <Button
+            style="@style/CalcButton"
             android:id="@+id/btnSin"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:text="@string/sin" />
-
+            android:text="@string/sin"/>
         <Button
+            style="@style/CalcButton"
             android:id="@+id/btnCos"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:text="@string/cos" />
-
+            android:text="@string/cos"/>
         <Button
+            style="@style/CalcButton"
             android:id="@+id/btnTan"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:text="@string/tan" />
+            android:text="@string/tan"/>
 
         <Button
+            style="@style/CalcButton"
             android:id="@+id/btnFactorial"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:text="@string/factorial" />
+            android:text="@string/factorial"/>
 
         <Button
+            style="@style/CalcButton"
             android:id="@+id/btnLn"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:text="@string/ln" />
+            android:text="@string/ln"/>
 
     </GridLayout>
 
