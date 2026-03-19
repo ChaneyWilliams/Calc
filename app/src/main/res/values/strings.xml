@@ -1,5 +1,44 @@
 <resources>
     <string name="app_name">Calc</string>
+
+    <string name="hint_first_number">Enter first number</string>
+    <string name="hint_second_number">Enter second number</string>
+
+    <string name="result_placeholder">Result will appear here</string>
+
+    <string name="add">+</string>
+    <string name="subtract">-</string>
+    <string name="multiply">×</string>
+    <string name="divide">÷</string>
+    <string name="power">^</string>
+    <string name="root">√</string>
+    <string name="mod">%</string>
+    <string name="log">log</string>
+    <string name="clear">C</string>
+    <string name="equals">=</string>
+    <string name="lParenthesis">(</string>
+    <string name="rParenthesis">)</string>
+    <string name="decimal">.</string>
+
+    <string name="first_only_label">All buttons below only apply to the First number</string>
+
+    <string name="sin">sin</string>
+    <string name="cos">cos</string>
+    <string name="tan">tan</string>
+    <string name="factorial">!</string>
+    <string name="ln">ln</string>
+
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+
     <string name="menu_add_note">Add Note</string>
     <string name="menu_clear_all">Clear All</string>
     <string name="hint_no_notes">No notes yet. Tap + to add one.</string>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/stdResults"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/result_placeholder" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rowCount="6"
+        android:columnCount="4">
+
+        <Button
+            android:id="@+id/stdSin"
+            android:text="@string/sin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/stdCos"
+            android:text="@string/cos"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/stdTan"
+            android:text="@string/tan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/stdMod"
+            android:text="@string/mod"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/std7"
+            android:text="@string/seven"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/std8"
+            android:text="@string/eight"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/std9"
+            android:text="@string/nine"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/stdAdd"
+            android:text="@string/add"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/std4"
+            android:text="@string/four"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/std5"
+            android:text="@string/five"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/std6"
+            android:text="@string/six"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/stdSub"
+            android:text="@string/subtract"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/std1"
+            android:text="@string/one"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/std2"
+            android:text="@string/two"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/std3"
+            android:text="@string/three"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/stdMult"
+            android:text="@string/multiply"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"/>
+
+
+        <Button
+            android:id="@+id/std0"
+            android:text="@string/zero"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/stdDot"
+            android:text="@string/decimal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/stdClear"
+            android:text="@string/clear"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/stdDiv"
+            android:text="@string/divide"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"/>
+
+
+        <Button
+            android:id="@+id/stdLParen"
+            android:text="@string/lParenthesis"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/stdRParen"
+            android:text="@string/rParenthesis"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/stdEquals"
+            android:text="@string/equals"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"/>
+    </GridLayout>
+</LinearLayout>
