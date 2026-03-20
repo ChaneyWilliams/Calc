@@ -3,7 +3,6 @@ package com.example.calc;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 import androidx.fragment.app.Fragment;
@@ -12,8 +11,6 @@ import android.view.ViewGroup;
 
 import net.objecthunter.exp4j.Expression;
 import net.objecthunter.exp4j.ExpressionBuilder;
-
-import java.util.Arrays;
 
 public class StandardCalcFragment extends Fragment {
 
@@ -45,7 +42,7 @@ public class StandardCalcFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View view = inflater.inflate(R.layout.standard_calc_layout, container, false);
+        View view = inflater.inflate(R.layout.standard_calc_fragment, container, false);
 
         inputExpression = view.findViewById(R.id.stdResults);
 
