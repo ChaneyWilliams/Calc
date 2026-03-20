@@ -37,9 +37,6 @@ public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.HistoryV
         return historyList.size();
     }
 
-    // ---------------------------
-    // ViewHolder
-    // ---------------------------
     static class HistoryViewHolder extends RecyclerView.ViewHolder {
 
         private final TextView textNoteTitle;

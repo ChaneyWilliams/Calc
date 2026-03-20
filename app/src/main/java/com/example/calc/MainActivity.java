@@ -63,7 +63,6 @@ public class MainActivity extends AppCompatActivity {
     }
     public void addToHistory(double a, double b, String op, double result)
     {
-        System.out.println("I get here");
         String record;
         switch (op) {
             case "sin":
